@@ -17,30 +17,48 @@ body {
     padding: 40px 20px;
 }
 
-h1, h2, div, p, footer {
+h1,
+h2,
+div,
+p,
+footer {
     text-align: center;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 24px;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin: 32px 0 16px 0;
+    font-size: 1.5rem;
+    margin: 32px 0 16px 0;
 }
 
 /* cta = call to action */
 .cta {
-    color: aquamarine;   
+    color: aquamarine;
 }
 
-img, video {
+img,
+video {
     display: block;
     margin: 32px auto;
     max-width: 100%;
     height: auto;
+}
+
+.camp_image_container {
+    display: flex;
+    justify-content: center;   /* centers the image */
+    padding: 0 1rem;           /* optional: adds breathing room on small screens */
+}
+
+.camp_image_container img {
+    width: 100%;               /* scales down on small screens */
+    max-width: 600px;          /* caps the size on large screens */
+    height: auto;              /* keeps aspect ratio */
+    display: block;            /* removes bottom spacing */
 }
 
 footer {

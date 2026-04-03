@@ -46,7 +46,7 @@ excursion/
 3. Open the `index.html` file in your browser.
 
 Alternatively, view the deployed version on GitHub Pages:  
-[Excursion Landing Page](https://jveyhl.github.io/excursion)
+[Excursion Landing Page](https://jveyhl.github.io/excursion2)
 
 ## Technologies Used
 
